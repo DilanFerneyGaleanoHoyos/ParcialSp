@@ -52,4 +52,15 @@ public class manageCustomersController {
             return ResponseHandler.generateResponse(e.getMessage(), HttpStatus.INTERNAL_SERVER_ERROR, null);
         }
     }
+  
+    @DeleteMapping("/{id}")
+    public ResponseEntity<Object> deleteById(@PathVariable Integer id) {
+        try {
+            customerServices.deleteById(id);
+            return ResponseHandler.generateResponse("Customer deleted successfully", HttpStatus.OK, null);
+        } catch (Exception e) {
+            return ResponseHandler.generateResponse(e.getMessage(), HttpStatus.INTERNAL_SERVER_ERROR, null);
+        }
+    }
+
 }
