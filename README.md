@@ -4,7 +4,7 @@ Interacion HTTP
 
 ### COMENTARIOS Y DESCRIPCION DEL TRABAJO Y RUTAS : 
 
-Documentación del Controlador de Gestión de Productos
+#### Documentación del Controlador de Gestión de Productos
 El controlador de gestión de productos proporciona endpoints para administrar productos en el sistema. A continuación se describe cada uno de los endpoints disponibles:
 
 GET /products/{id}
@@ -27,14 +27,14 @@ POST /products
 Descripción:
 Crea un nuevo producto en el sistema.
 
-Documentación del Controlador de Ventas
+#### Documentación del Controlador de Ventas
 El controlador de ventas proporciona endpoints para realizar ventas y administrar clientes. A continuación se describe cada uno de los endpoints disponibles:
 
 POST /sales
 Descripción:
 Realiza una nueva venta en el sistema.
 
-Documentación del Controlador de Clientes
+#### Documentación del Controlador de Clientes
 El controlador de clientes proporciona endpoints para administrar clientes en el sistema. A continuación se describe cada uno de los endpoints disponibles:
 
 GET /customers
