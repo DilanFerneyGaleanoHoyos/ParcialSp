@@ -31,4 +31,8 @@ public class customerServices {
         return optional.orElse(null);
     }
 
+ public void deleteById(Integer id) {
+        manageCustomersRepository.deleteById(id);
+    }
+
 }
